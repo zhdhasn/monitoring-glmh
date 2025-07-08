@@ -1,0 +1,17 @@
+# Ignore Loki cache and WAL directories
+loki1-cache/
+loki1-wal/
+loki2-cache/
+loki2-wal/
+loki3-cache/
+loki3-wal/
+cache/
+wal/
+data/
+
+# Ignore Grafana runtime storage (optional)
+grafana/storage/
+
+# System files
+*.log
+*.tmp
