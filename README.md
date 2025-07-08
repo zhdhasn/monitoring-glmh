@@ -13,6 +13,7 @@ A containerized monitoring solution using:
 docker-compose up -d
 
 Directory Structure:
+
 drwxrwxr-x  5 jahid jahid 4096 Jun 25 06:43 cache/
 drwxr-x---  5 jahid jahid 4096 Jun 25 06:42 data/
 -rw-rw-r--  1 jahid jahid 3541 Jun 26 03:25 docker-compose.yaml
@@ -29,7 +30,7 @@ drwxrwxr-x  2 jahid jahid 4096 Jun 25 10:52 loki3-wal/
 -rw-rw-r--  1 jahid jahid  998 Jul  7 08:03 loki-config.yaml
 -rw-rw-r--  1 jahid jahid  242 Jul  8 05:14 REDME.md
 drwxrwxr-x  5 jahid jahid 4096 Jun 25 06:43 wal/
-jahid@docker-io:~/monitoring$ tree
+
 .
 ├── cache
 │   ├── loki1
